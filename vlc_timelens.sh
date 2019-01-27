@@ -9,5 +9,6 @@ fi
 cp "$1.timeline.jpg" "timelens.jpg"
 zip "myskin.vlt" "timelens.jpg"
 vlc "$1"
+zip "myskin.vlt" "timelens_o.jpg"
 cd "$sourcepath"
 exit
